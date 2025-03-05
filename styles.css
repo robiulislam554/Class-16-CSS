@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 400px;
+    width: 100%;
+    background-image: url(images/bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: yellowgreen;
+    overflow: hidden;
+}
+
+.project{
+    margin-top: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-item{
+    height: 200px;
+    width: 32.5%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+.footer{
+    height: 150px;
+    background-color: rgb(25, 14, 14);
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-item{
+    float: left;
+    width: 33.33%;
+}
+
+.footer-1{
+    color: rgb(10, 245, 245);
+}
+
+.Links{
+    text-decoration: none;
+    color: greenyellow;
+    display: block;
+    margin-top: 5px;
+}
