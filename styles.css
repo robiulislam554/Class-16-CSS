@@ -29,6 +29,7 @@
     margin-right: 10px;
     border: 1px solid black;
     float: left;
+    overflow: hidden;
 }
 
 .footer{
@@ -41,6 +42,7 @@
 .footer-item{
     float: left;
     width: 33.33%;
+    background-color: rgb(25, 14, 14);
 }
 
 .footer-1{
@@ -52,4 +54,109 @@
     color: greenyellow;
     display: block;
     margin-top: 5px;
+}
+
+
+/* Device Responsive With CSS  */
+
+@media screen and (max-width: 1099px){
+    .hero{
+        height: 350px;
+        color: thistle;
+    }
+}
+
+@media screen and (max-width: 899px){
+    .hero{
+        height: 300px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .hero{
+        height: 250px;
+        color: yellow;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero{
+        height: 225px;
+        color: yellowgreen;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .hero{
+        height: 200px;
+        color: turquoise;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .hero{
+        height: 200px;
+        color: violet;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero{
+        height: 150px;
+        color: green;
+    }
+}
+
+
+@media screen and (max-width: 1199px){
+    .project-item{
+        width: 32.49%;
+    }
+    
+}
+
+@media screen and (max-width: 1184px){
+    .project-item{
+        width: 32%;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    .project-item{
+        width: 31.8%;
+    }
+    
+}
+
+@media screen and (max-width: 666px){
+    .project-item{
+        width: 48%;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+    .project-item{
+        width: 99%;
+    }
+    
+}
+
+@media screen and (max-width: 666px){
+    .footer-mid{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 542px){
+    .footer-item{
+        width: 100%;
+        padding: 0;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
 }
